@@ -1,13 +1,27 @@
 // ConsoleApplication3.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
 
 int main()
 {
+    srand(time(0));
     int a;
     std::cin >> a;
     std::cout << "Hello World!\n";
     std::cout << std::endl;
+
+    const int b = 5;
+
+    int array[b]{ 0 };
+
+    for (int i(0); i < b; ++i)
+    {
+        array[i] = rand() % 10;
+        std::cout << array[i];
+    }
+
 
     //std::cout << "Hello World!\n";
     //std::cout << "Hello World!\n";
