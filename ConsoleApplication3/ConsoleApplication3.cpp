@@ -11,6 +11,14 @@ int main()
 
     //std::cout << "Hello World!\n";
     //std::cout << "Hello World!\n";
+
+    int a(5);
+
+    for (int i(0); i < a; ++i)
+    {
+        std::cout << "Hi!" << " ";
+    }
+    std::cout << std::endl << "oyur number is:" << a;
     
 }
 void foo(int a)
