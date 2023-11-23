@@ -10,6 +10,14 @@ int main()
     std::cout << std::endl;
     
 }
+void foo(int a)
+{
+    for (int i(0); i < a; ++i)
+    {
+        std::cout << "Hi!" << " ";
+    }
+    std::cout << std::endl << "oyur number is:" << a;
+}
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
